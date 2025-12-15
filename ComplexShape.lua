@@ -19,7 +19,7 @@ local function GetAngleFromVector(vectorA : Vector3, vectorB : Vector3)
 end
 
 --The params to be used
-type SpawnGenerationParams = {
+export type SpawnGenerationParams = {
 	Min : number?,
 	Max : number?,
 	Points : number?,
